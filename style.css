@@ -1,0 +1,316 @@
+span.a {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    background-image: url("Wix Logo Maker 1.png");
+    width: 23%;
+    padding: 1%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 0;
+    background-color: #D8E2FB;
+    font-size: large;
+    word-spacing: 0.4;
+    text-align: left;
+    width: 40%;
+    float: right
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.nav ul li:hover a,
+.nav ul li.active a {
+    color: black;
+    background-color: #FBDFD3;
+}
+
+.section {
+    height: 600px;
+    padding: 25px;
+    background-color: #D8E2FB;
+    height: 10cm;
+}
+
+.img {
+    float: right;
+    padding: 20px;
+}
+
+.h1 {
+    font-size: 46px;
+    text-align: center;
+    padding: 10px;
+}
+
+.p {
+    font-size: 38px;
+    text-align: center;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: center;
+}
+
+.img {
+    float: right;
+    padding: auto;
+}
+
+#GetFile {
+    border: 1px solid gray;
+    color: black;
+    background-color: #F7F5E9;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    box-shadow: #D8E2FB;
+    border-radius: 15px;
+}
+
+#GetFile:hover {
+    background-color: #FBDFD3;
+}
+
+.button {
+    border: 1px solid gray;
+    color: black;
+    background-color: #F7F5E9;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    box-shadow: #D8E2FB;
+    border-radius: 15px;
+}
+
+.h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.p2 {
+    background-color: #F8DCEC;
+    text-align: center;
+    font-size: 16px;
+    padding: 2%;
+}
+
+#section2 {
+    width: 90%;
+    margin: auto;
+    transition: 1s ease-in-out;
+}
+
+.section2:hover {
+    transform: scale(1.05);
+}
+
+.h3 {
+    font-size: 46px;
+    text-align: center;
+}
+
+.p3 {
+    background-color: #FBDFD3;
+    text-align: left;
+    font-size: xx-large;
+    border: solid black;
+    padding: 5%;
+}
+
+#section3 {
+    background-color: #F8DCEC;
+    width: 90%;
+    margin: auto;
+    border: solid black;
+    padding: 20px;
+    transition: 1s ease-in-out;
+}
+
+.section3:hover {
+    transform: scale(1.05);
+}
+
+.myuxskill {
+    text-align: center;
+    font-size: 46px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: white;
+}
+
+.flex-container>div {
+    margin: 5px;
+    padding: 5px;
+    width: 33%;
+    border: solid black;
+}
+
+.div1 {
+    float: right;
+    position: relative;
+    bottom: 250px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.flex-container1 {
+    display: flex;
+}
+
+.flex-container1>div {
+    display: flex;
+    margin: 0 30px;
+    padding: 5px;
+    float: left;
+}
+
+.mywork {
+    text-align: center;
+    font-size: 46px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    background-color: white;
+}
+
+#section4 {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.grid-container {
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50% 50%;
+    display: grid;
+    padding: 5px;
+    margin: auto;
+    gap: 10px;
+    width: 90%;
+    background-color: #FFF4EF;
+    transition: 1s ease-in-out;
+}
+
+.grid-container>div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: xx-large;
+}
+
+.grid-container:hover {
+    transform: scale(1.04);
+}
+
+.h4 {
+    font-size: 46px;
+    text-align: center;
+    padding: 10px;
+}
+
+.button2 {
+    border: 1px solid gray;
+    color: black;
+    background-color: #F7F5E9;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: #D8E2FB;
+    border-radius: 15px;
+    align-content: center;
+}
+
+.h6 {
+    font-size: 38px;
+    text-align: center;
+    padding: 5%;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #D8E2FB;
+    font-size: large;
+    word-spacing: 0.4cm;
+    text-align: right;
+    padding: auto;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.p6 {
+    background-color: #D8E2FB;
+    text-align: left;
+    font-size: large;
+    padding: auto;
+    margin-top: 1%;
+    height: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+    #headline {
+        position: static;
+        margin: 20px;
+    }
+    #flex-container {
+        flex-direction: column;
+    }
+    #grid-container {
+        grid-template-columns: auto;
+    }
+}
